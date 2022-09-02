@@ -33,7 +33,7 @@ function fetchRequest(file) {
 
   p.innerText = "Scanning QR Code..";
 
-  fetch(`http://api.qrserver.com/v1/read-qr-code/`, {
+  fetch(`https://api.qrserver.com/v1/read-qr-code/`, {
     method: "POST",
     body: formData,
   })
